@@ -1,12 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using AdventOfCode.Challenges.Challenge1;
 
-namespace advent_of_code {
+namespace AdventOfCode {
     class Program {
-        static void Main(string[] args) {
+        public static void Main(string[] args) {
+            Console.WriteLine("Run a challenge:");
+            var challenge = Console.ReadLine();
+
+            if(challenge == "1") {
+                new Challenge1().Run();
+            }
+
+            Console.WriteLine(challenge);
+            Console.ReadLine();
         }
     }
 }
