@@ -8,7 +8,7 @@ namespace AdventOfCode {
             var challenge = Console.ReadLine();
 
             if(challenge == "1") {
-                new Challenge1().Run();
+                new Challenge1a().Run();
             }
 
             Console.WriteLine(challenge);
